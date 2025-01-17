@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 280px;
+}
+
+h1:hover{
+    color: darkblue;
+    transition: color 0.5s ease;
+    text-shadow: 5px 5px 5px gainsboro;
+}
