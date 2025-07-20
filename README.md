@@ -1,38 +1,46 @@
-# City-Checker-JS-assignment
-The goal of this assignment is to create a JavaScript program that checks whether the city "Islamabad" exists in a predefined list of Pakistani cities. The program will search for "Islamabad" within the array, and if it is found, it will display an alert with the message:
-"Islamabad is the cleanest city of Pakistan!"
+# 🏙️ Islamabad City Checker
 
-How It's Made
-Define the Array of Cities:
+This simple JavaScript assignment checks whether the city **"Islamabad"** exists in a predefined array of Pakistani cities. If found, it alerts the user with a message highlighting Islamabad as the cleanest city.
 
-Create an array containing the names of multiple cities in Pakistan. This list will serve as the data source for the program. The array includes cities like Karachi, Lahore, Multan, Islamabad, and others.
-Logic for Searching the City:
+---
 
-Use JavaScript to search the array for the city "Islamabad." This can be achieved using array methods like includes() or a loop to iterate through the list of cities.
-Ensure the search is case-sensitive or handle case normalization if needed.
-Condition and Alert Message:
+## 📌 About
 
-If the city "Islamabad" is found in the array, display an alert message saying:
-"Islamabad is the cleanest city of Pakistan!"
-If not found, the program can silently end or provide feedback, such as another alert indicating the city isn't found (optional).
-User Interaction:
+The goal of this project is to practice JavaScript array handling and conditional logic by:
 
-The program does not require input from the user. It directly checks the predefined array for the city "Islamabad" and provides feedback.
-How It Performs
-Initialization:
+- Creating an array of city names (e.g., Karachi, Lahore, Islamabad, etc.)
+- Searching the array for the city `"Islamabad"`
+- Displaying a specific message using `alert()` if Islamabad is found
 
-The program initializes with the predefined array of cities stored in memory.
-City Search:
+---
 
-It performs a search operation in the array to determine if "Islamabad" is present.
-Condition Check:
+## 🎯 Objective
 
-If "Islamabad" is found, the program immediately triggers an alert with the designated message:
-"Islamabad is the cleanest city of Pakistan!"
-Feedback Display:
+> If **"Islamabad"** exists in the array, the program will show:  
+> `"Islamabad is the cleanest city of Pakistan!"`
 
-The alert acts as a response mechanism, informing the user about the success of the search.
-End of Execution:
+---
 
-Once the alert is displayed, the program completes its execution.
+## 🧠 Key Concepts Practiced
 
+- Arrays in JavaScript
+- Using `includes()` or `indexOf()` to search elements
+- Conditional statements (`if`)
+- Alert box for user interaction
+
+---
+
+## 🛠 Technologies Used
+
+- 🧱 HTML (basic page structure)
+- ⚙️ JavaScript (array logic and alert)
+
+---
+
+## 💡 Sample Code Logic
+
+```js
+var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar"];
+if (cities.includes("Islamabad")) {
+  alert("Islamabad is the cleanest city of Pakistan!");
+}
